@@ -1,0 +1,93 @@
+@import "../../scss/lan-variables";
+
+.userprofile-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 5rem 2rem 5rem;
+  overflow: auto;
+  min-height: 900px;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 1rem;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+  box-shadow: $lan-form-box-shadow;
+}
+// Less than 900px, fill the whole page.
+@media (max-width: 900px) {
+  .userprofile-container {
+    width: 100%;
+  }
+}
+.lan-form-label {
+  margin: 1rem auto 1rem auto;
+}
+.submit-btn {
+  margin: 1rem auto 0 auto;
+  align-self: center;
+  padding: 0.8rem;
+}
+.btn-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-title {
+  margin: 0 auto 0 auto;
+  text-align: center;
+  overflow-wrap: break-word;
+  word-break: break-all;
+  user-select: none;
+}
+
+.profile-inner-container {
+  height: 100%;
+  align-items: center;
+}
+
+// Left: avatar.
+.avatar-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.profile-avatar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color: #efebeb;
+  transition: $lan-global-transition;
+  overflow: hidden;
+}
+.user-avatar-ico {
+  overflow: hidden;
+}
+.profile-avatar-btn {
+  margin-bottom: 1rem;
+}
+.join-date-text {
+  margin: 1rem 0 1rem 0;
+  font-size: large;
+}
+
+
+// Right: user detail.
+.detail-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.delete-btn {
+  margin: 1rem auto 1rem auto;
+  align-items: center;
+  max-width: 400px;
+}

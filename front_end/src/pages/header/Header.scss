@@ -1,0 +1,23 @@
+.header-wrapper {
+    margin: auto;
+    background-color: var(--header-background-color);
+    color: black;
+    top: 0;
+    left: 0;
+}
+
+/* Overwrite bootstrap. */
+@media (min-width: 1400px) {
+    .header-wrapper {
+        max-width: 75vw !important;
+    }
+}
+
+.header-inner {
+
+}
+
+.align-flex-right {
+    margin-left: auto;
+}
+

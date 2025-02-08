@@ -1,0 +1,84 @@
+.hero-part {
+    position: relative;
+    margin: 0;
+}
+/* Auto fit the content. */
+.hero-image {
+    position: relative;
+    max-height: 50vh;
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(55%);
+}
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    color: white;
+    text-align: justify;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-overflow: clip;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+.hero-title {
+    text-align: center;
+}
+.hero-content {
+    font-size: x-large;
+}
+.start-using-btn-link {
+    align-self: center;
+    color: white;
+}
+.hero-btn {
+    margin: 1rem auto 0 auto;
+    color: white;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+/* The second part. */
+.home-half-img-text-wrapper {
+    position: relative;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.home-half-img-text {
+    width: 50%;
+    padding: 2rem;
+    text-align: center;
+    margin: auto;
+}
+.home-half-image {
+    width: 50%;
+}
+@media (max-width: 1054px) {
+    .home-half-image {
+        width: 100%;
+    }
+}
+
+.intro-text {
+    margin-top: 1.5rem;
+    font-size: x-large;
+}
+
+.intro-btn {
+    margin: 1rem auto 0 auto;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.signup-btn-link {
+    align-self: center;
+}
+.signup-btn {
+    margin: 1rem auto 0 auto;
+    font-weight: bolder;
+    font-size: x-large;
+}

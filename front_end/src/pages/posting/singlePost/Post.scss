@@ -1,0 +1,31 @@
+.single-post-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin: 3rem 0;
+  position: relative;
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.reply-container {
+  padding: 0 0 0 100px;
+}
+
+.post-block {
+  padding: 3rem;
+  text-align: center;
+
+  h2 {
+   color: red;
+    user-select: none;
+  }
+}
+
+.post-block-small-text {
+  color: red;
+  font-size: larger;
+  font-weight: bolder;
+  margin-top: 2rem;
+}

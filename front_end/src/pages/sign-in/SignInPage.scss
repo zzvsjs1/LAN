@@ -1,0 +1,19 @@
+@import "../../scss/lan-variables";
+
+.signin-form-container {
+  margin: 10rem auto 0 auto;
+  padding: 2rem 5rem 2rem 5rem;
+  max-width: 900px;
+  justify-items: center;
+  align-items: stretch;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: $lan-form-box-shadow;
+}
+// Less than 900px, fill the whole page.
+@media (max-width: 900px) {
+  .signup-form-container {
+    width: 100%;
+  }
+}

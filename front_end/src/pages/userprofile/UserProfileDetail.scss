@@ -1,0 +1,16 @@
+.profile-detail-text {
+  overflow-wrap: break-word;
+  word-break: break-all;
+  margin: 1rem 0;
+
+  span {
+    font-weight: normal;
+  }
+}
+
+.edit-btn {
+  margin: 1rem auto;
+  overflow-wrap: break-word;
+  word-break: break-all;
+  width: max-content;
+}

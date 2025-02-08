@@ -1,0 +1,52 @@
+.reactions-container {
+  display: flex;
+  flex-direction: row;
+  transition: 0.3s;
+  border: 1px solid #3bad9e;
+  margin-right: 1rem;
+  border-radius: 1rem;
+}
+.reactions-item-btn {
+  border: none;
+  padding: 0.3rem;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  cursor: pointer;
+}
+.reactions-item-btn:hover {
+  color: #3bad9e;
+  border: none;
+  background-color: transparent;
+  box-shadow: none;
+}
+.reactions-item-btn:active {
+  transform: none;
+  color: #3bad9e;
+  border: none;
+  background-color: transparent;
+  box-shadow: none;
+}
+.reactions-item-btn:focus {
+  color: #3bad9e;
+  border: none;
+  background-color: transparent;
+  box-shadow: none;
+}
+.reactions-item-btn:active:focus {
+  color: #3bad9e;
+  border: none;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.reactions-item-btn .btn-check:checked + .btn, .btn-check:active + .btn, .btn:active, .btn.active, .btn.show {
+  color: #3bad9e;
+  border: none;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.reactions-item-btn > .btn-check:checked + .btn:focus, .btn-check:active + .btn:focus, .btn:active:focus, .btn.active:focus, .btn.show:focus {
+  box-shadow: none;
+}

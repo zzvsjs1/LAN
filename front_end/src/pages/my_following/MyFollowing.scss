@@ -1,0 +1,16 @@
+.myfollowing-container {
+  position: relative;
+  margin-top: 8rem;
+  padding: 2rem 4rem 2rem 4rem;
+  border-radius: 1rem;
+  align-items: stretch;
+  background-color: white;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1),
+  0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.myfollowing-close-btn {
+  position: absolute;
+  left: 40px;
+  top: 20px;
+}

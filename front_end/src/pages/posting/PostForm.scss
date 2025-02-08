@@ -1,0 +1,158 @@
+@import "../../scss/lan-variables";
+
+.posting-form-wrapper {
+  margin: 3rem auto 0 auto;
+  padding: 2rem 4rem 2rem 4rem;
+  width: 1000px;
+  justify-items: center;
+  align-items: stretch;
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1),
+              0 5px 20px rgba(0, 0, 0, 0.1);
+}
+// Less than 1200px.
+@media (max-width: 1200px) {
+  .posting-form-wrapper {
+    width: inherit;
+  }
+}
+
+.posting-form {
+
+}
+.lan-form-feedback-posting{
+  font-size: large;
+}
+
+.lan-form-textarea-input {
+  resize: none;
+  font-size: large;
+  overflow: visible;
+}
+
+.hide-form {
+  display: none;
+}
+
+.hide-file-input {
+  display: none;
+}
+
+// The posting form img button and relate style.
+.posting-form-add-img-btn-wrapper {
+  margin: 1rem 0 0 0;
+  width: max-content;
+  height: max-content;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.posting-form-add-img-btn-text {
+  font-size: xx-large;
+  color: $lan-green-1;
+}
+.posting-form-add-img-btn-wrapper:hover {
+  .posting-form-add-img-btn-text {
+    color: black;
+    transition: 0.2s;
+  }
+}
+.posting-form-add-img-btn-wrapper:active {
+  .posting-form-add-img-btn-text {
+    transform: scale(0.9);
+  }
+}
+
+// User select images will show here.
+.posting-form-image-part {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0.5rem auto 0 auto;
+}
+
+.posting-form-img-wrapper {
+  position: relative;
+  height: 70px;
+  width: 70px;
+  margin: 4px;
+  border-radius: 1rem;
+  cursor: pointer;
+  overflow: hidden;
+  transition: 0.2s;
+}
+
+.posting-form-img-overlay {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2000;
+  background-color: black;
+  opacity: 0.5;
+  align-items: center;
+  align-content: center;
+  border-radius: 1rem;
+  user-select: none;
+}
+
+.posting-form-add-img-icon-wrapper {
+  position: relative;
+  height: 70px;
+  width: 70px;
+  margin: 4px;
+  border-radius: 1rem;
+  cursor: pointer;
+  overflow: hidden;
+  transition: 0.2s;
+}
+.posting-form-add-img-icon-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.3;
+  align-items: center;
+  align-content: center;
+  border-radius: 1rem;
+  user-select: none;
+}
+.posting-form-add-img-icon-wrapper:hover {
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.1), 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+.posting-form-add-img-icon-wrapper:active {
+  transform: scale(0.9);
+}
+
+// Display overlay when mouse hover.
+.posting-form-img-wrapper:hover {
+  .posting-form-img-overlay {
+    display: inline-block;
+  }
+}
+.posting-form-img-wrapper:active {
+  transform: scale(0.9);
+}
+
+.posting-form-img-overlay-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  align-self: center;
+}
+
+.posting-form-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+// The submit button
+.posting-form-post-btn {
+  margin: 1rem auto 1rem auto;
+  padding: 0.6rem 1rem 0.6rem 1rem;
+  text-transform: uppercase;
+}

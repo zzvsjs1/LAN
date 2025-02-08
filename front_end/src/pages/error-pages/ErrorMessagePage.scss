@@ -1,0 +1,17 @@
+.error-page-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding: 5rem;
+  margin: 3rem auto;
+  position: relative;
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.error-text {
+  color: red;
+  text-align: center;
+  word-break: break-word;
+}

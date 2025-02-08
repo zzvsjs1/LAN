@@ -1,0 +1,77 @@
+@import "../../../scss/lan-variables";
+
+.single-post-inner-container {
+  padding: 25px 0 25px 80px;
+}
+
+.post-avatar-container {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  width: 80px;
+}
+
+// The content container
+.post-content-container {
+  position: relative;
+}
+
+.post-userinfo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.post-username {
+  font-size: larger;
+  user-select: none;
+}
+
+.post-text-area {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 5rem;
+  font-size: 16px;
+  word-wrap: break-word;
+  word-break: break-word;
+  white-space: pre-wrap;
+  vertical-align: baseline;
+}
+
+// The post images
+.post-images-container {
+  margin: 0.5rem 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+$post-tool-color: #848990;
+
+// The edit, delete, reply button.
+.post-tools {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+  font-size: 15px;
+  color: $post-tool-color;
+}
+
+.reply-time {
+  margin-right: 1rem;
+}
+
+.post-tool-text {
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.post-tool-text:hover {
+  color: $lan-green-1;
+  text-decoration: underline $lan-green-1;
+}

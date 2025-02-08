@@ -1,0 +1,18 @@
+@import "../../scss/lan-variables";
+
+.no-this-page-wrapper {
+  margin: 20rem auto 0 auto;
+  padding: 2rem 5rem 2rem 5rem;
+  justify-items: center;
+  align-items: stretch;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: $lan-form-box-shadow;
+
+  h1 {
+    color: red;
+    font-weight: bolder;
+    text-align: center;
+  }
+}

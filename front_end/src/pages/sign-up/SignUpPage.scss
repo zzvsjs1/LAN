@@ -1,0 +1,34 @@
+@import "../../scss/lan-variables";
+
+.signup-form-container {
+  margin: 5rem auto 5rem auto;
+  display: flex;
+  padding: 2rem 5rem 2rem 5rem;
+  width: 900px;
+  align-items: stretch;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: $lan-form-box-shadow;
+}
+// Less than 900px, fill the whole page.
+@media (max-width: 900px) {
+  .signup-form-container {
+    width: 100%;
+  }
+}
+
+.lan-form-label {
+  margin: 1rem auto 1rem auto;
+}
+
+.submit-btn {
+  margin: 1rem auto 0 auto;
+  align-self: center;
+  padding: 0.8rem;
+}
+
+.btn-wrapper {
+  display: flex;
+  align-items: center;
+}

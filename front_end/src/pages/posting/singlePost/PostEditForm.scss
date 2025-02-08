@@ -1,0 +1,29 @@
+.post-edit-form-container {
+  padding: 2rem;
+}
+
+.post-edit-form {
+
+}
+
+.post-edit-button-group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.post-edit-form-btn {
+  margin-right: 1rem;
+  font-size: larger;
+}
+
+.max-content {
+  width: max-content;
+}
+
+.post-edit-form-image-part {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}

@@ -1,0 +1,19 @@
+.lan-nav-link {
+    display: block;
+    padding: 1rem;
+    margin-right: 1rem;
+    width: max-content;
+    border-radius: 0.35rem;
+    font-size: x-large;
+    font-weight: var(--bs-nav-link-font-weight);
+    color: black;
+    text-decoration: none;
+    transition: var(--lan-link-transition);
+}
+.lan-nav-link:hover {
+    color: var(--lan-green-2);
+    background-color: gainsboro;
+}
+.lan-nav-link:active {
+    transform: scale(0.9);
+}

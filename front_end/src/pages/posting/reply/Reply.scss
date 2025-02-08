@@ -1,0 +1,20 @@
+@import "../../../scss/lan-variables";
+
+.reply-inner-container {
+  position: relative;
+  padding: 25px 0 25px 100px;
+}
+
+.reply-avatar-container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  position: absolute;
+  left: 0;
+  justify-content: flex-start;
+  width: 80px;
+}
+
+.reply-inner-content {
+
+}

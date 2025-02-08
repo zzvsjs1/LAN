@@ -1,0 +1,27 @@
+/* Styling all the logo things. */
+.logo-area {
+    height: 100%;
+}
+/* The whole area, not just the icon and text! */
+.logo {
+    display: flex;
+    margin-right: 3rem;
+    align-items: center;
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.logo-icon {
+    font-family: var(--lan-serif-font-family);
+    margin-right: 1rem;
+    text-shadow: 0 2px 6px #EAEAEA;
+}
+.logo-text {
+    font-size: x-large;
+    text-shadow: 0 2px 6px #EAEAEA;
+}
+/* Use our main color. */
+.logo:hover {
+    color: var(--lan-green-2);
+}

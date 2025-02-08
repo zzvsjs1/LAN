@@ -1,0 +1,34 @@
+@import "../../scss/lan-variables";
+
+.footer-wrapper {
+  margin: 2rem auto 0 auto;
+}
+
+@media (min-width: 1400px) {
+  .footer-wrapper {
+    max-width: $lan-content-max-width !important;
+  }
+}
+
+.footer-link-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.footer-link-list-item {
+  margin-right: 1rem;
+  font-size: larger;
+}
+
+.footer-curve {
+  height: 8px;
+  font-size: 5px;
+  border-bottom: 1px solid #cccece;
+}
+
+.copyright {
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+}

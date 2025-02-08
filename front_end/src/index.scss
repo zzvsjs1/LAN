@@ -1,0 +1,149 @@
+/* The basic css will be write in here. All rules are global. */
+/* Note: Some rule are provide by the default template. */
+
+/* Defined variables and also some global things */
+:root {
+  --lan-body-background-color: linear-gradient(
+          rgb(255, 255, 255) 0px,
+          rgb(255, 255, 255) 1720px,
+          rgb(241, 241, 241) 2020px
+  );
+  --lan-default-font-family: 'Noto Sans', sans-serif;
+  --lan-serif-font-family: 'Noto Serif', serif;
+  --lan-content-max-width: 75%;
+  --material-icons: "Material Icons", fantasy;
+
+  --lan-green-1: #2d9c91;
+  --lan-green-2: #3bad9e;
+  --header-background-color: white;
+  --nav-background-color: white;
+  --lan-golbal-transition: 0.2s;
+  --lan-link-transition: 0.2s;
+  --lan-link-button-radius: 0.35rem;
+}
+
+html {
+  line-height: 1.15;
+}
+
+body {
+  margin: 0;
+  font-family: var(--lan-default-font-family);
+  background-color: var(--lan-body-background-color);
+  background-repeat: repeat;
+  text-rendering: optimizeSpeed;
+  scroll-behavior: smooth;
+  overflow: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: bold;
+  line-height: 1.15;
+}
+
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+abbr[title] {
+  text-decoration: underline dotted;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+/* When press button, show some effect. */
+button:active {
+  transform: scale(0.9);
+}
+
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+progress {
+  vertical-align: baseline;
+}
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+details {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}

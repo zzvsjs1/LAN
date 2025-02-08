@@ -1,0 +1,19 @@
+a:hover {
+  color: var(--lan-green-2);
+  transition: var(--lan-link-transition);
+}
+a:not([href]):not([class]), a:not([href]):not([class]):hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.App {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr;
+  grid-template-rows: max-content 1fr max-content;
+}
+
+.main-wrapper {
+  max-width: 90vw;
+}
